@@ -222,7 +222,7 @@ nav{
 
 .s-box:hover{
     transform: scale(1.05);
-    transition: all ease 0.5s;
+    transition: all ease-in-out 0.5s;
 }
 
 .s-box-container{
@@ -290,7 +290,7 @@ button:active{
 }
 
 footer{
-    background-color: #353745;
+    background-color:  #2c75ff;
     display: flex;
     flex-direction: column;
     align-items: center;
