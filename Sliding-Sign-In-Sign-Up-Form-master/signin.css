@@ -12,7 +12,7 @@ input {
 }
 
 .container {
-  position: relative;
+  position: flex;
   width: 100%;
   background-color: #fff;
   min-height: 100vh;
@@ -26,6 +26,8 @@ input {
   top: 0;
   left: 0;
 }
+
+
 
 .signin-signup {
   position: absolute;

@@ -49,7 +49,7 @@ textarea:focus {
 /* Banner */
 
 #banner {
-  height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,7 +90,7 @@ textarea:focus {
 
 nav {
   height: 72px;
-  background: #202125;
+  background: rgb(244, 247, 230);
   width: 100%;
   margin: 0;
   position: fixed;
@@ -101,11 +101,14 @@ nav {
   padding: 0 16px 0 0;
   box-sizing: border-box;
   z-index: 100;
+  box-shadow: 0 19px 25px rgba(0, 0, 0, 0.10) ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 nav a {
   padding: 0 32px;
-  color: #eee;
+  color: #202125;
   transition: 0.4s;
 }
 
@@ -128,22 +131,21 @@ nav ul {
 }
 
 #logo-img {
-  display: flex;
-  height: 100%;
-  background: #111;
-  padding: 0 32px;
-  align-items: center;
-  color: white;
+  padding-top: 2mm;
+  display: block;
+  height: 50%;
+  background: transparent;
+  
+  
+  color: #eee;
   transition: 0.4s;
 }
 
 #logo-img img {
-  height: 100px;
+  height: 50px;
 }
 
-#logo-img:hover {
-  background: black;
-}
+
 
 #menu-icon {
   height: 100%;
